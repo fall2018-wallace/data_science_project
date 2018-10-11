@@ -9,14 +9,8 @@
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "assigned_to": "urvi15mistry",
-            "desc": "Make plots for different attributes to explore and analyze the dataset",
-            "name": "plot_data.R",
-            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 17:23:04",
+    "updated_at": "2018-10-11 17:23:26",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
