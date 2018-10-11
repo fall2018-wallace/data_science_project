@@ -15,6 +15,11 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "clean_data.R"
+        },
+        {
+            "ports": [],
+            "source": "clean_data.R",
+            "target": "plot_data.R"
         }
     ],
     "nodes": [
@@ -34,6 +39,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 17:21:21",
+    "updated_at": "2018-10-11 17:21:59",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
