@@ -1,0 +1,46 @@
+{
+    "collaborators": [
+        "rshett02",
+        "urvi15mistry",
+        "hmehta"
+    ],
+    "created_at": "2018-09-27 17:04:45",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "clean the code",
+            "name": "clean.R",
+            "task_status": "not started"
+        }
+    ],
+    "updated_at": "2018-10-11 16:41:51",
+    "url": "https://github.com/fall2018-wallace/data_science_project"
+}
