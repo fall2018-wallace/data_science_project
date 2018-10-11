@@ -17,7 +17,13 @@
             "target": "clean_data.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "plotData",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
             "source": "clean_data.R",
             "target": "plot_data.R"
         }
@@ -39,6 +45,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 17:21:59",
+    "updated_at": "2018-10-11 17:22:00",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
