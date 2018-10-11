@@ -6,7 +6,11 @@
     ],
     "created_at": "2018-09-27 17:04:45",
     "edges": [],
-    "nodes": [],
-    "updated_at": "2018-10-11 17:05:18",
+    "nodes": [
+        {
+            "name": "satisfactionSurvey.csv"
+        }
+    ],
+    "updated_at": "2018-10-11 17:05:32",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
