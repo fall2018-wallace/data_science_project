@@ -13,7 +13,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
+            "source": "satisfactionSurvey.csv",
             "target": "clean.R"
         },
         {
@@ -29,7 +29,7 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "satisfactionSurvey.csv"
         },
         {
             "name": "data.csv"
@@ -41,6 +41,6 @@
             "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-11 16:41:51",
+    "updated_at": "2018-10-11 16:42:26",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
