@@ -9,16 +9,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -29,9 +19,6 @@
     ],
     "nodes": [
         {
-            "name": "satisfactionSurvey.csv"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -41,6 +28,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 16:43:09",
+    "updated_at": "2018-10-11 17:05:06",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
