@@ -13,21 +13,19 @@
                     "type": "csv"
                 }
             ],
-            "source": "one.csv",
+            "source": "satisfactionSurvey.csv",
             "target": "clean.R"
         }
     ],
     "nodes": [
         {
-            "name": "one.csv"
+            "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "clean.R",
-            "task_status": "in progress"
+            "name": "clean.R"
         }
     ],
-    "updated_at": "2018-10-11 17:24:18",
+    "updated_at": "2018-10-11 17:26:13",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
