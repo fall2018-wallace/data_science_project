@@ -35,12 +35,12 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "urvi15mistry",
             "desc": "clean the code",
             "name": "clean.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 16:42:46",
+    "updated_at": "2018-10-11 16:43:09",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
