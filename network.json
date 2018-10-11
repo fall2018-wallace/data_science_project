@@ -6,11 +6,7 @@
     ],
     "created_at": "2018-09-27 17:04:45",
     "edges": [],
-    "nodes": [
-        {
-            "name": "data.csv"
-        }
-    ],
-    "updated_at": "2018-10-11 17:05:10",
+    "nodes": [],
+    "updated_at": "2018-10-11 17:05:14",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
