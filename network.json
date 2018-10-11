@@ -9,8 +9,12 @@
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
+        },
+        {
+            "desc": "",
+            "name": "clean.R"
         }
     ],
-    "updated_at": "2018-10-11 17:23:26",
+    "updated_at": "2018-10-11 17:23:30",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
