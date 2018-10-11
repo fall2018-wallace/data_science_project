@@ -22,10 +22,12 @@
             "name": "satisfactionSurvey.csv"
         },
         {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "clean.R"
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:26:13",
+    "updated_at": "2018-10-11 17:28:16",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
