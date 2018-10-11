@@ -13,8 +13,12 @@
         {
             "desc": "Clean Data",
             "name": "clean_data.R"
+        },
+        {
+            "desc": "Make plots for different attributes to explore and analyze the dataset",
+            "name": "plot_data.R"
         }
     ],
-    "updated_at": "2018-10-11 17:12:37",
+    "updated_at": "2018-10-11 17:14:28",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
