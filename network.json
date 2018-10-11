@@ -35,12 +35,12 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "rshett02",
+            "assigned_to": "not assigned",
             "desc": "clean the code",
             "name": "clean.R",
             "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-11 16:42:26",
+    "updated_at": "2018-10-11 16:42:46",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
