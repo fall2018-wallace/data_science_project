@@ -2,7 +2,8 @@
     "collaborators": [
         "rshett02",
         "urvi15mistry",
-        "hmehta"
+        "hmehta",
+        "hrdarji"
     ],
     "created_at": "2018-09-27 17:04:45",
     "edges": [
@@ -28,6 +29,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:29:18",
+    "updated_at": "2018-10-25 16:51:50",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
