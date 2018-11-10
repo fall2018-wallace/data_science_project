@@ -29,9 +29,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "rawdata.csv"
+            "name": "rawData.csv"
         }
     ],
-    "updated_at": "2018-11-10 19:36:12",
+    "updated_at": "2018-11-10 19:36:30",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
