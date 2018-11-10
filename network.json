@@ -27,8 +27,11 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "rawdata.csv"
         }
     ],
-    "updated_at": "2018-11-10 19:30:55",
+    "updated_at": "2018-11-10 19:36:12",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
