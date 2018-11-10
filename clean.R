@@ -6,3 +6,4 @@ rawData$Satisfaction <- replace(rawData$Satisfaction,list = change,4)
 table(rawData$Satisfaction)
 
 #Cleaning Flight Date Column
+rawData$Flight_Date
