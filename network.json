@@ -2,7 +2,8 @@
     "collaborators": [
         "rshett02",
         "urvi15mistry",
-        "hmehta"
+        "hmehta",
+        "hrdarji"
     ],
     "created_at": "2018-09-27 17:04:45",
     "edges": [
@@ -14,6 +15,26 @@
                 }
             ],
             "source": "satisfactionSurvey.csv",
+            "target": "Rename_columns.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rawData",
+                    "type": "csv"
+                }
+            ],
+            "source": "Rename_columns.R",
+            "target": "rawData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rawData",
+                    "type": "csv"
+                }
+            ],
+            "source": "rawData.csv",
             "target": "clean.R"
         }
     ],
@@ -22,10 +43,21 @@
             "name": "satisfactionSurvey.csv"
         },
         {
+            "name": "rawData.csv"
+        },
+        {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "clean.R"
+            "name": "Rename_columns.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:26:13",
+    "updated_at": "2018-11-10 22:31:07",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
