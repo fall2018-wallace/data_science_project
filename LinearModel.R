@@ -57,10 +57,10 @@ mod19 <- lm(Satisfaction ~ Destination_city,data = cleanData)
 summary(mod19) #0.0001712 
 
 mod20 <- lm(Satisfaction ~ Destination_state,data = cleanData)
-summary(mod20)
+summary(mod20) #0.0003215 
 
 mod21 <- lm(Satisfaction ~ Scheduled_departure_hour,data = cleanData)
-summary(mod21)
+summary(mod21) 
 
 mod22 <- lm(Satisfaction ~ Departure_delay_in_minutes,data = cleanData)
 summary(mod22)
