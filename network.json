@@ -56,8 +56,12 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "LinearModel.R"
         }
     ],
-    "updated_at": "2018-11-10 22:31:07",
+    "updated_at": "2018-11-18 00:01:37",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
