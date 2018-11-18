@@ -4,5 +4,3 @@ change <- c(which(grepl("4.00.2.00",rawData$Satisfaction)),which(grepl("4.00.5",
 change
 rawData$Satisfaction <- replace(rawData$Satisfaction,list = change,4)
 table(rawData$Satisfaction)
-
-#Cleaning Flight Date Column
