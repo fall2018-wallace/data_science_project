@@ -8,6 +8,7 @@ summary(mode2) #0.0492
 mode3 <- lm(Satisfaction ~ Gender,data = cleanData)
 summary(mode3) #0.01761
 
-mode3 <- lm(Satisfaction ~ Gender,data = cleanData)
-summary(mode3)
+mode4 <- lm(Satisfaction ~ Price_sensitivity,data = cleanData)
+summary(mode4)
+
 table(rawData$Satisfaction)
