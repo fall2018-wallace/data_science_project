@@ -47,5 +47,8 @@ summary(mod15) #0.0006697
 mod16 <- lm(Satisfaction ~ Airline_name,data = cleanData)
 summary(mod16)
 
-Origin_city","Origin_state","Destination_city","Destination_state","Scheduled_departure_hour","Departure_delay_in_minutes","Arrival_delay_in_minutes","Flight_cancelled","Flight_time_in_minutes","Flight_distance","Arrival_delay_greater_than_5minutes"
+mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
+summary(mod17)
+
+","Origin_state","Destination_city","Destination_state","Scheduled_departure_hour","Departure_delay_in_minutes","Arrival_delay_in_minutes","Flight_cancelled","Flight_time_in_minutes","Flight_distance","Arrival_delay_greater_than_5minutes"
 
