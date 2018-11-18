@@ -17,3 +17,6 @@ summary(mod5) #5.284e-05
 mod6 <- lm(Satisfaction ~ No_of_flights_pa,data = cleanData)
 summary(mod6) #0.05672
 
+mod7 <- lm(Satisfaction ~ Year_of_flights,data = cleanData)
+summary(mod7)
+
