@@ -36,6 +36,17 @@
             ],
             "source": "rawData.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rawData",
+                    "output": "rawData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "LinearModel.R"
         }
     ],
     "nodes": [
@@ -56,8 +67,14 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "urvi15mistry",
+            "desc": "",
+            "name": "LinearModel.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-10 22:31:07",
+    "updated_at": "2018-11-18 00:07:51",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
