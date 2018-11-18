@@ -8,7 +8,7 @@ summary(mode2)
 mode2 <- lm(Satisfaction ~ Day_of_month,data = rawData)
 summary(mode2) #0.0492
 
-mod16 <- lm(Satisfaction ~ Airline_name,data = rawData)
+mod16 <- lm(Satisfaction ~ Airline_name,data = cleanData)
 summary(mod16) 
 
 
