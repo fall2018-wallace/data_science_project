@@ -50,32 +50,35 @@ summary(mod16)
 mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
 summary(mod17)
 
-mod17 <- lm(Satisfaction ~ Origin_state,data = cleanData)
-summary(mod17)
+mod18 <- lm(Satisfaction ~ Origin_state,data = cleanData)
+summary(mod18)
 
-mod17 <- lm(Satisfaction ~ Destination_city,data = cleanData)
-summary(mod17)
+mod19 <- lm(Satisfaction ~ Destination_city,data = cleanData)
+summary(mod19)
 
-mod17 <- lm(Satisfaction ~ Destination_state,data = cleanData)
-summary(mod17)
+mod20 <- lm(Satisfaction ~ Destination_state,data = cleanData)
+summary(mod20)
 
-mod17 <- lm(Satisfaction ~ Scheduled_departure_hour,data = cleanData)
-summary(mod17)
+mod21 <- lm(Satisfaction ~ Scheduled_departure_hour,data = cleanData)
+summary(mod21)
 
-mod17 <- lm(Satisfaction ~ Departure_delay_in_minutes,data = cleanData)
-summary(mod17)
+mod22 <- lm(Satisfaction ~ Departure_delay_in_minutes,data = cleanData)
+summary(mod22)
 
-mod17 <- lm(Satisfaction ~ Arrival_delay_in_minutes,data = cleanData)
-summary(mod17)
+mod23 <- lm(Satisfaction ~ Arrival_delay_in_minutes,data = cleanData)
+summary(mod23)
 
-mod17 <- lm(Satisfaction ~ Flight_cancelled,data = cleanData)
-summary(mod17)
+mod24 <- lm(Satisfaction ~ Flight_cancelled,data = cleanData)
+summary(mod24)
 
-mod17 <- lm(Satisfaction ~ Flight_time_in_minutes,data = cleanData)
-summary(mod17)
+mod25 <- lm(Satisfaction ~ Flight_time_in_minutes,data = cleanData)
+summary(mod25)
 
-mod17 <- lm(Satisfaction ~ Flight_distance,data = cleanData)
-summary(mod17)
+mod26 <- lm(Satisfaction ~ Flight_distance,data = cleanData)
+summary(mod26)
 
-","Origin_state","Destination_city","Destination_state","Scheduled_departure_hour","Departure_delay_in_minutes","Arrival_delay_in_minutes","Flight_cancelled","Flight_time_in_minutes","Flight_distance","Arrival_delay_greater_than_5minutes"
+mod27 <- lm(Satisfaction ~ Arrival_delay_greater_than_5minutes,data = cleanData)
+summary(mod27)
+
+
 
