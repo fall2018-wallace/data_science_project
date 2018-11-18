@@ -29,5 +29,6 @@ summary(mod9) #0.007805
 mod10 <- lm(Satisfaction ~ Shopping_amount_at_airport,data = cleanData)
 summary(mod10) #0.0002997
 
-
+mod11 <- lm(Satisfaction ~ Eating_and_drinking_at_airport,data = cleanData)
+summary(mod11)
 
