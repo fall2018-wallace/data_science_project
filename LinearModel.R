@@ -1,3 +1,3 @@
 
 linearmodel <- lm(Satisfaction ~ Airline_status,data = rawData)
-summary(linearmodel)
+summary(linearmodel) #0.1184
