@@ -63,7 +63,7 @@ mod21 <- lm(Satisfaction ~ Scheduled_departure_hour,data = cleanData)
 summary(mod21) #-6.966e-06 
 
 mod22 <- lm(Satisfaction ~ Departure_delay_in_minutes,data = cleanData)
-summary(mod22)
+summary(mod22) #0.004941
 
 mod23 <- lm(Satisfaction ~ Arrival_delay_in_minutes,data = cleanData)
 summary(mod23)
