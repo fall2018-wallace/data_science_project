@@ -34,3 +34,6 @@ summary(mod11) #-4.367e-06
 
 mod12 <- lm(Satisfaction ~ Class,data = cleanData)
 summary(mod12) #0.002526
+
+mod13 <- lm(Satisfaction ~ Day_of_month,data = cleanData)
+summary(mod13)
