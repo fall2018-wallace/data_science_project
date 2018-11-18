@@ -54,7 +54,7 @@ mod18 <- lm(Satisfaction ~ Origin_state,data = cleanData)
 summary(mod18) #0.0007328 
 
 mod19 <- lm(Satisfaction ~ Destination_city,data = cleanData)
-summary(mod19)
+summary(mod19) #0.0001712 
 
 mod20 <- lm(Satisfaction ~ Destination_state,data = cleanData)
 summary(mod20)
