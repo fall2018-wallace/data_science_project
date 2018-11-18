@@ -50,5 +50,11 @@ summary(mod16)
 mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
 summary(mod17)
 
+mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
+summary(mod17)
+mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
+summary(mod17)
+
+
 ","Origin_state","Destination_city","Destination_state","Scheduled_departure_hour","Departure_delay_in_minutes","Arrival_delay_in_minutes","Flight_cancelled","Flight_time_in_minutes","Flight_distance","Arrival_delay_greater_than_5minutes"
 
