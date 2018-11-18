@@ -43,3 +43,42 @@ summary(mod14) #0.001426
 
 mod15 <- lm(Satisfaction ~ Airline_code,data = cleanData)
 summary(mod15) #0.0006697
+
+mod16 <- lm(Satisfaction ~ Airline_name,data = cleanData)
+summary(mod16) #0.0006697
+
+mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
+summary(mod17) #0.0005546
+
+mod18 <- lm(Satisfaction ~ Origin_state,data = cleanData)
+summary(mod18) #0.0007328 
+
+mod19 <- lm(Satisfaction ~ Destination_city,data = cleanData)
+summary(mod19) #0.0001712 
+
+mod20 <- lm(Satisfaction ~ Destination_state,data = cleanData)
+summary(mod20) #0.0003215 
+
+mod21 <- lm(Satisfaction ~ Scheduled_departure_hour,data = cleanData)
+summary(mod21) #-6.966e-06 
+
+mod22 <- lm(Satisfaction ~ Departure_delay_in_minutes,data = cleanData)
+summary(mod22) #0.004941
+
+mod23 <- lm(Satisfaction ~ Arrival_delay_in_minutes,data = cleanData)
+summary(mod23) #0.006879 
+
+mod24 <- lm(Satisfaction ~ Flight_cancelled,data = cleanData)
+summary(mod24) #0.001473 
+
+mod25 <- lm(Satisfaction ~ Flight_time_in_minutes,data = cleanData)
+summary(mod25) #6.18e-06
+
+mod26 <- lm(Satisfaction ~ Flight_distance,data = cleanData)
+summary(mod26) #5.313e-06 
+
+mod27 <- lm(Satisfaction ~ Arrival_delay_greater_than_5minutes,data = cleanData)
+summary(mod27) #0.02529 
+
+
+
