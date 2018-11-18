@@ -11,5 +11,7 @@ summary(mode3) #0.01761
 mod4 <- lm(Satisfaction ~ Price_sensitivity,data = cleanData)
 summary(mode4) #0.007637
 
+mod5 <- lm(Satisfaction ~ Year_of_flights,data = cleanData)
+summary(mod5)
 
 table(rawData$Satisfaction)
