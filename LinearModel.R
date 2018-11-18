@@ -10,3 +10,6 @@ summary(mode2) #0.0492
 
 
 table(rawData$Satisfaction)
+
+m3<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel,rawData = data)
+summary(m3)
