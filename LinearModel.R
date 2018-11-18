@@ -43,3 +43,6 @@ summary(mod14) #0.001426
 
 mod15 <- lm(Satisfaction ~ Airline_code,data = cleanData)
 summary(mod15) #0.0006697
+
+mod16 <- lm(Satisfaction ~ Airline_name,data = cleanData)
+summary(mod15)
