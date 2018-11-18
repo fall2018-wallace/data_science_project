@@ -40,8 +40,8 @@
         {
             "ports": [
                 {
-                    "input": "rawData",
-                    "output": "rawData",
+                    "input": "cleanData",
+                    "output": "cleanData",
                     "type": "r_obj"
                 }
             ],
@@ -75,6 +75,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-18 00:07:51",
+    "updated_at": "2018-11-18 00:36:58",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
