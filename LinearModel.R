@@ -17,6 +17,29 @@ summary(mod5) #5.284e-05
 mod6 <- lm(Satisfaction ~ No_of_flights_pa,data = cleanData)
 summary(mod6) #0.05672
 
-mod7 <- lm(Satisfaction ~ Year_of_flights,data = cleanData)
-summary(mod7)
+mod7 <- lm(Satisfaction ~ Percent_of_flights_with_other_airlines,data = cleanData)
+summary(mod7) #0.004261
 
+mod8 <- lm(Satisfaction ~ Type_of_travel,data = cleanData)
+summary(mod8) #0.335
+
+mod9 <- lm(Satisfaction ~ No_of_other_loyalty_cards,data = cleanData)
+summary(mod9) #0.007805
+
+mod10 <- lm(Satisfaction ~ Shopping_amount_at_airport,data = cleanData)
+summary(mod10) #0.0002997
+
+mod11 <- lm(Satisfaction ~ Eating_and_drinking_at_airport,data = cleanData)
+summary(mod11) #-4.367e-06
+
+mod12 <- lm(Satisfaction ~ Class,data = cleanData)
+summary(mod12) #0.002526
+
+mod13 <- lm(Satisfaction ~ Day_of_month,data = cleanData)
+summary(mod13) #0.0001875
+
+mod14 <- lm(Satisfaction ~ Flight_date,data = cleanData)
+summary(mod14) #0.001426
+
+mod15 <- lm(Satisfaction ~ Airline_code,data = cleanData)
+summary(mod15) #0.0006697
