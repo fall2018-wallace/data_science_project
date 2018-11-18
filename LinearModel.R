@@ -23,3 +23,6 @@ summary(mod7) #0.004261
 mod8 <- lm(Satisfaction ~ Type_of_travel,data = cleanData)
 summary(mod8) #0.335
 
+mod5 <- lm(Satisfaction ~ Year_of_flights,data = cleanData)
+summary(mod5)
+
