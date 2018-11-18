@@ -36,6 +36,16 @@
             ],
             "source": "rawData.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rawData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "LinearModel.R"
         }
     ],
     "nodes": [
@@ -62,6 +72,6 @@
             "name": "LinearModel.R"
         }
     ],
-    "updated_at": "2018-11-18 00:01:37",
+    "updated_at": "2018-11-18 00:03:19",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
