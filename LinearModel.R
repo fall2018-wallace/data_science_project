@@ -6,7 +6,8 @@ mode2 <- lm(Satisfaction ~ Age,data = cleanData)
 summary(mode2) #0.0492
 
 mode3 <- lm(Satisfaction ~ Gender,data = cleanData)
-summary(mode3) #0.0492
+summary(mode3) #0.01761
 
-
+mode3 <- lm(Satisfaction ~ Gender,data = cleanData)
+summary(mode3)
 table(rawData$Satisfaction)
