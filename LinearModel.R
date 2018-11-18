@@ -48,7 +48,7 @@ mod16 <- lm(Satisfaction ~ Airline_name,data = cleanData)
 summary(mod16) #0.0006697
 
 mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
-summary(mod17)
+summary(mod17) #0.0005546
 
 mod18 <- lm(Satisfaction ~ Origin_state,data = cleanData)
 summary(mod18)
