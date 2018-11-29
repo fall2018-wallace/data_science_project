@@ -66,15 +66,19 @@
             "assigned_to": "rshett02",
             "desc": "",
             "name": "clean.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         },
         {
             "assigned_to": "urvi15mistry",
             "desc": "",
             "name": "LinearModel.R",
-            "task_status": "in progress"
+            "task_status": "validating"
+        },
+        {
+            "desc": "",
+            "name": "Apriori.R"
         }
     ],
-    "updated_at": "2018-11-18 00:36:58",
+    "updated_at": "2018-11-29 18:18:23",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
