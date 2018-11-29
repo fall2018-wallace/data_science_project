@@ -88,8 +88,12 @@
         {
             "desc": "",
             "name": "Apriori.R"
+        },
+        {
+            "desc": "",
+            "name": "Svm.R"
         }
     ],
-    "updated_at": "2018-11-29 18:19:41",
+    "updated_at": "2018-11-29 18:19:56",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
