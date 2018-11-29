@@ -47,6 +47,28 @@
             ],
             "source": "clean.R",
             "target": "LinearModel.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Apriori.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Svm.R"
         }
     ],
     "nodes": [
@@ -66,15 +88,23 @@
             "assigned_to": "rshett02",
             "desc": "",
             "name": "clean.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         },
         {
             "assigned_to": "urvi15mistry",
             "desc": "",
             "name": "LinearModel.R",
-            "task_status": "in progress"
+            "task_status": "validating"
+        },
+        {
+            "desc": "",
+            "name": "Apriori.R"
+        },
+        {
+            "desc": "",
+            "name": "Svm.R"
         }
     ],
-    "updated_at": "2018-11-18 00:36:58",
+    "updated_at": "2018-11-29 18:20:08",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
