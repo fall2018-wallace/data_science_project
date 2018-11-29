@@ -47,6 +47,17 @@
             ],
             "source": "clean.R",
             "target": "LinearModel.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Apriori.R"
         }
     ],
     "nodes": [
@@ -79,6 +90,6 @@
             "name": "Apriori.R"
         }
     ],
-    "updated_at": "2018-11-29 18:18:23",
+    "updated_at": "2018-11-29 18:19:41",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
