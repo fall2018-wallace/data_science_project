@@ -113,4 +113,3 @@ summary(m10) #r= 0.4349
 m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel  + Airline_status + Origin_state ,cleanData)
 summary(m11) #r=0.4195
 
-
