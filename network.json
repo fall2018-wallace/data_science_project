@@ -58,6 +58,17 @@
             ],
             "source": "clean.R",
             "target": "Apriori.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Svm.R"
         }
     ],
     "nodes": [
@@ -94,6 +105,6 @@
             "name": "Svm.R"
         }
     ],
-    "updated_at": "2018-11-29 18:19:56",
+    "updated_at": "2018-11-29 18:20:08",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
