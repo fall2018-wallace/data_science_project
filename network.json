@@ -85,12 +85,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "completed"
-        },
-        {
             "desc": "",
             "name": "Apriori.R"
         },
@@ -103,8 +97,14 @@
             "desc": "",
             "name": "LinearModel.R",
             "task_status": "validating"
+        },
+        {
+            "assigned_to": "hmehta",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-29 18:50:36",
+    "updated_at": "2018-12-01 02:45:20",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
