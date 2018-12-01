@@ -80,9 +80,6 @@ summary(mod26) #5.313e-06
 mod27 <- lm(Satisfaction ~ Arrival_delay_greater_than_5minutes,data = cleanData)
 summary(mod27) #0.02529 
 
-linearmodel <- lm(Satisfaction ~ Type_of_travel + Airline_status + Arrival_delay_greater_than_5minutes,data = cleanData)
-summary(linearmodel)##r=0.435
-
 
 m1<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel ,cleanData)
 summary(m1)##0.4084
@@ -113,5 +110,5 @@ summary(m9) #r= 0.3619
 m10 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes+Type_of_travel + Airline_status ,cleanData)
 summary(m10) ##r= 0.4349
 
-m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel + Gender + Airline_status + Origin_state ,cleanData)
+m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel  + Airline_status + Origin_state ,cleanData)
 summary(m11) ##r0.4179
