@@ -7,12 +7,11 @@ change
 rawData$Satisfaction <- replace(rawData$Satisfaction,list = change,4)
 table(rawData$Satisfaction)
 
-#Cleaning Flight Date Column
-rawData$Departure_delay_in_minutes[is.na(rawData$Departure_delay_in_minutes)] <- 0
-sum(is.na(rawData$Departure_delay_in_minutes))
+#Subsetting cancelled flights  
+wasteData <- rawData[which(rawData$Flight_cancelled=='Yes'),]
+wasteData
 
-summary(rawData$Departure_delay_in_minutes)
-
-str(rawData$Departure_delay_in_minutes)
+cleanData <- rawData[which(rawData$Flight_cancelled=='No'),]
+View(cleanData)
 
 cleanData <- rawData
