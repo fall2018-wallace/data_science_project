@@ -1,6 +1,6 @@
 
 mod1 <- lm(Satisfaction ~ Airline_status,data = cleanData)
-summary(mod1) #0.1184
+summary(mod1) #0.1185
 
 mod2 <- lm(Satisfaction ~ Age,data = cleanData)
 summary(mod2) #0.0492
@@ -12,7 +12,7 @@ mod4 <- lm(Satisfaction ~ Price_sensitivity,data = cleanData)
 summary(mod4) #0.007637
 
 mod5 <- lm(Satisfaction ~ Year_of_flights,data = cleanData)
-summary(mod5) #5.284e-05
+summary(mod5) #6.054e-05
 
 mod6 <- lm(Satisfaction ~ No_of_flights_pa,data = cleanData)
 summary(mod6) #0.05672
@@ -80,7 +80,35 @@ summary(mod26) #5.313e-06
 mod27 <- lm(Satisfaction ~ Arrival_delay_greater_than_5minutes,data = cleanData)
 summary(mod27) #0.02529 
 
-linearmodel <- lm(Satisfaction ~ Type_of_travel + Airline_status + Arrival_delay_greater_than_5minutes,data = cleanData)
-summary(linearmodel)
 
+m1<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel ,cleanData)
+summary(m1)##0.4084
+m2<- lm(formula = Satisfaction ~ Type_of_travel + Class,cleanData)
+summary(m2) #r=0.3358
 
+m3 <- lm(formula = Satisfaction ~ Type_of_travel + Price_sensitivity,cleanData)
+summary(m3) #0.3364
+
+m4<- lm(formula = Satisfaction ~ Departure_delay_in_minutes + Type_of_travel,cleanData)
+summary(m4) #r=0.3424
+
+m5<- lm(formula = Satisfaction ~ Departure_delay_in_minutes + Type_of_travel +Origin_city,cleanData)
+summary(m5) #r= 3427
+
+m6 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes + Type_of_travel +Origin_state, cleanData)
+summary(m6) #r=0.348
+
+m7 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes + Type_of_travel + Destination_city ,cleanData)
+summary(m7) #r=0.3426
+
+m8 <- lm(formula = Satisfaction ~ Arrival_delay_in_minutes + Type_of_travel + Destination_city , cleanData)
+summary(m8) #r=0.3459
+
+m9 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes + Type_of_travel + Destination_city , cleanData)
+summary(m9) #r= 0.3619
+
+m10 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes+Type_of_travel + Airline_status ,cleanData)
+summary(m10) ##r= 0.4349
+
+m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel  + Airline_status  ,cleanData)
+summary(m11) ##r0.4138
