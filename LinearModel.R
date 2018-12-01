@@ -102,7 +102,7 @@ m7 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes + Type_of_travel + 
 summary(m7) #r=0.3426
 
 m8 <- lm(formula = Satisfaction ~ Arrival_delay_in_minutes + Type_of_travel + Destination_city , cleanData)
-summary(m8) #r=0.344
+summary(m8) #r=0.3459
 
 m9 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes + Type_of_travel + Destination_city , cleanData)
 summary(m9) #r= 0.3619
