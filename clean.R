@@ -12,6 +12,6 @@ wasteData <- rawData[which(rawData$Flight_cancelled=='Yes'),]
 wasteData
 
 cleanData <- rawData[which(rawData$Flight_cancelled=='No'),]
-View(cleanData)
+cleanData
 
 cleanData <- rawData
