@@ -140,8 +140,11 @@
             "desc": "",
             "name": "plot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "res_plot2.png"
         }
     ],
-    "updated_at": "2018-12-05 16:02:37",
+    "updated_at": "2018-12-05 16:07:59",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
