@@ -5,7 +5,7 @@ summary(mod1) #0.1187
 mod2 <- lm(Satisfaction ~ Age,data = cleanData)
 summary(mod2) #0.0492
 res <- resid(mod2)
-plot(cleanData$Age, res)
+rse_plot <- plot(cleanData$Age, res)
 abline(0,0)
 
 mod3 <- lm(Satisfaction ~ Gender,data = cleanData)
