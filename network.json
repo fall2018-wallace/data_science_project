@@ -73,8 +73,8 @@
         {
             "ports": [
                 {
-                    "input": "res_plot",
-                    "output": "res_plot",
+                    "input": "res",
+                    "output": "res",
                     "type": "r_obj"
                 }
             ],
@@ -127,6 +127,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-05 15:41:37",
+    "updated_at": "2018-12-05 15:42:32",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
