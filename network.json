@@ -73,12 +73,13 @@
         {
             "ports": [
                 {
+                    "input": "res_plot",
                     "output": "res_plot",
-                    "type": "png"
+                    "type": "r_obj"
                 }
             ],
             "source": "LinearModel.R",
-            "target": "res_plot.png"
+            "target": "plot.R"
         }
     ],
     "nodes": [
@@ -124,6 +125,6 @@
             "name": "plot.R"
         }
     ],
-    "updated_at": "2018-12-05 15:40:39",
+    "updated_at": "2018-12-05 15:41:16",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
