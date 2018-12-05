@@ -1,4 +1,6 @@
 
+library(dplyr)
+
 Southeast <- cleanData
-Southeast <- 
+Southeast <- subset(cleanData,Airline_name=="Southeast Airlines Co.")
 Southeast
