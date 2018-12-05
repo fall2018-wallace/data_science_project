@@ -118,8 +118,12 @@
             "desc": "",
             "name": "LinearModel.R",
             "task_status": "validating"
+        },
+        {
+            "desc": "",
+            "name": "plot.R"
         }
     ],
-    "updated_at": "2018-12-05 15:31:46",
+    "updated_at": "2018-12-05 15:40:39",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
