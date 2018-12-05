@@ -70,8 +70,6 @@ summary(mod22) #0.004941
 mod23 <- lm(Satisfaction ~ Arrival_delay_in_minutes,data = cleanData)
 summary(mod23) #0.006879 
 
-mod24 <- lm(Satisfaction ~ Flight_cancelled,data = cleanData)
-summary(mod24) #0.001473 
 
 mod25 <- lm(Satisfaction ~ Flight_time_in_minutes,data = cleanData)
 summary(mod25) #6.18e-06
