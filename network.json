@@ -115,16 +115,18 @@
             "name": "res_plot.png"
         },
         {
-            "desc": "",
-            "name": "plot.R"
-        },
-        {
             "assigned_to": "rshett02",
             "desc": "",
             "name": "LinearModel.R",
             "task_status": "validating"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-05 15:41:25",
+    "updated_at": "2018-12-05 15:41:37",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
