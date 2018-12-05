@@ -1,6 +1,6 @@
 
 mod1 <- lm(Satisfaction ~ Airline_status,data = cleanData)
-summary(mod1) #0.1185
+summary(mod1) #0.1187
 
 mod2 <- lm(Satisfaction ~ Age,data = cleanData)
 summary(mod2) #0.0492
