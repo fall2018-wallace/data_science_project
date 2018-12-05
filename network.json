@@ -73,22 +73,6 @@
         {
             "ports": [
                 {
-                    "input": "res",
-                    "output": "res",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "LinearModel.R",
-            "target": "plot.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "res_plot",
                     "type": "png"
                 }
@@ -105,6 +89,27 @@
             ],
             "source": "plot.R",
             "target": "res_plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "res",
+                    "output": "res",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "res2",
+                    "output": "res2",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "LinearModel.R",
+            "target": "plot.R"
         }
     ],
     "nodes": [
@@ -155,6 +160,6 @@
             "name": "res_plot2.png"
         }
     ],
-    "updated_at": "2018-12-05 16:08:15",
+    "updated_at": "2018-12-05 16:08:44",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
