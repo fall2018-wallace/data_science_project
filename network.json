@@ -95,6 +95,16 @@
             ],
             "source": "plot.R",
             "target": "res_plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "res_plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "res_plot2.png"
         }
     ],
     "nodes": [
@@ -145,6 +155,6 @@
             "name": "res_plot2.png"
         }
     ],
-    "updated_at": "2018-12-05 16:07:59",
+    "updated_at": "2018-12-05 16:08:15",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
