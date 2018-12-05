@@ -21,7 +21,7 @@ mod7 <- lm(Satisfaction ~ Percent_of_flights_with_other_airlines,data = cleanDat
 summary(mod7) #0.004261
 
 mod8 <- lm(Satisfaction ~ Type_of_travel,data = cleanData)
-summary(mod8) #0.335
+summary(mod8) #0.3368
 
 mod9 <- lm(Satisfaction ~ No_of_other_loyalty_cards,data = cleanData)
 summary(mod9) #0.007805
