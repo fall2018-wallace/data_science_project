@@ -69,6 +69,16 @@
             ],
             "source": "clean.R",
             "target": "Svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "res_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModel.R",
+            "target": "res_plot.png"
         }
     ],
     "nodes": [
@@ -110,6 +120,6 @@
             "name": "res_plot.png"
         }
     ],
-    "updated_at": "2018-12-05 15:30:44",
+    "updated_at": "2018-12-05 15:31:07",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
