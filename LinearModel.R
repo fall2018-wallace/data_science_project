@@ -1,9 +1,11 @@
 
 mod1 <- lm(Satisfaction ~ Airline_status,data = cleanData)
-summary(mod1) #0.1185
+summary(mod1) #0.1187
 
 mod2 <- lm(Satisfaction ~ Age,data = cleanData)
 summary(mod2) #0.0492
+res <- resid(mod2)
+res
 
 mod3 <- lm(Satisfaction ~ Gender,data = cleanData)
 summary(mod3) #0.01761
@@ -16,12 +18,16 @@ summary(mod5) #6.054e-05
 
 mod6 <- lm(Satisfaction ~ No_of_flights_pa,data = cleanData)
 summary(mod6) #0.05672
+res1 <- resid(mod6)
+res1
+
+
 
 mod7 <- lm(Satisfaction ~ Percent_of_flights_with_other_airlines,data = cleanData)
 summary(mod7) #0.004261
 
 mod8 <- lm(Satisfaction ~ Type_of_travel,data = cleanData)
-summary(mod8) #0.335
+summary(mod8) #0.3368
 
 mod9 <- lm(Satisfaction ~ No_of_other_loyalty_cards,data = cleanData)
 summary(mod9) #0.007805
@@ -68,8 +74,6 @@ summary(mod22) #0.004941
 mod23 <- lm(Satisfaction ~ Arrival_delay_in_minutes,data = cleanData)
 summary(mod23) #0.006879 
 
-mod24 <- lm(Satisfaction ~ Flight_cancelled,data = cleanData)
-summary(mod24) #0.001473 
 
 mod25 <- lm(Satisfaction ~ Flight_time_in_minutes,data = cleanData)
 summary(mod25) #6.18e-06
