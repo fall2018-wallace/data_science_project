@@ -147,7 +147,7 @@
         {
             "ports": [
                 {
-                    "output": "cleanData",
+                    "output": "Hist_sat",
                     "type": "png"
                 }
             ],
@@ -222,6 +222,6 @@
             "name": "Hist_sat.png"
         }
     ],
-    "updated_at": "2018-12-06 14:13:57",
+    "updated_at": "2018-12-06 14:14:19",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
