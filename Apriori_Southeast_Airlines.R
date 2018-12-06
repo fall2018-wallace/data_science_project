@@ -3,6 +3,7 @@ library(lubridate)
 library(arules)
 library(dplyr)
 library(arulesViz)
+
 Southeast <- subset(cleanData,Airline_name=='Southeast Airlines Co. ')
 
 cleanData <- Southeast
