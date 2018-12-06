@@ -69,6 +69,100 @@
             ],
             "source": "clean.R",
             "target": "Svm.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "res_plot",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "res_plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "res_plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "res_plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "res",
+                    "output": "res",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "res1",
+                    "output": "res1",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "LinearModel.R",
+            "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Apriori_Southeast_Airlines.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "Apriori_plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Basic_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Hist_sat",
+                    "type": "png"
+                }
+            ],
+            "source": "Basic_plots.R",
+            "target": "Hist_sat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cleanData",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleanData.csv"
         }
     ],
     "nodes": [
@@ -85,12 +179,17 @@
             "task_status": "completed"
         },
         {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "Apriori.R"
+            "name": "Apriori.R",
+            "task_status": "in progress"
         },
         {
             "desc": "",
             "name": "Svm.R"
+        },
+        {
+            "name": "res_plot.png"
         },
         {
             "assigned_to": "rshett02",
@@ -99,12 +198,43 @@
             "task_status": "validating"
         },
         {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "res_plot2.png"
+        },
+        {
+            "assigned_to": "urvi15mistry",
+            "desc": "",
+            "name": "Apriori_Southeast_Airlines.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Apriori_plot.R"
+        },
+        {
+            "assigned_to": "urvi15mistry",
+            "desc": "",
+            "name": "Basic_plots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Hist_sat.png"
+        },
+        {
+            "name": "cleanData.csv"
+        },
+        {
             "assigned_to": "hmehta",
             "desc": "",
             "name": "clean.R",
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-01 02:45:20",
+    "updated_at": "2018-12-06 14:29:16",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
