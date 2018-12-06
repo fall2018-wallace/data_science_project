@@ -158,8 +158,12 @@
         },
         {
             "name": "res_plot2.png"
+        },
+        {
+            "desc": "",
+            "name": "Apriori_Southeast_Airlines.R"
         }
     ],
-    "updated_at": "2018-12-05 16:09:55",
+    "updated_at": "2018-12-06 02:27:00",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
