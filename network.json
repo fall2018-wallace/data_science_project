@@ -171,10 +171,16 @@
             "name": "res_plot2.png"
         },
         {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "Apriori_Southeast_Airlines.R"
+            "name": "Apriori_Southeast_Airlines.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Apriori_plot.R"
         }
     ],
-    "updated_at": "2018-12-06 02:27:16",
+    "updated_at": "2018-12-06 02:41:37",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
