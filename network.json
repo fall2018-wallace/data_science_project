@@ -203,10 +203,15 @@
             "name": "Apriori_plot.R"
         },
         {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "Basic_plots.R"
+            "name": "Basic_plots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Hist_sat.png"
         }
     ],
-    "updated_at": "2018-12-06 13:32:16",
+    "updated_at": "2018-12-06 14:13:44",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
