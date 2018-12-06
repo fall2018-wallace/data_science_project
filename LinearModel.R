@@ -85,7 +85,7 @@ mod27 <- lm(Satisfaction ~ Arrival_delay_greater_than_5minutes,data = cleanData)
 summary(mod27) #0.02529 
 
 
-m1<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel + No_of_flights_pa,cleanData)
+m1<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel ,cleanData)
 summary(m1)##0.4084
 
 m2<- lm(formula = Satisfaction ~ Type_of_travel + Class,cleanData)
