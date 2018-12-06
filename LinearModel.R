@@ -25,7 +25,7 @@ mod8 <- lm(Satisfaction ~ Type_of_travel,data = cleanData)
 summary(mod8) #0.3368
 
 mod9 <- lm(Satisfaction ~ No_of_other_loyalty_cards,data = cleanData)
-summary(mod9) #0.007805
+summary(mod9) #0.007809
 
 mod10 <- lm(Satisfaction ~ Shopping_amount_at_airport,data = cleanData)
 summary(mod10) #0.0002997
