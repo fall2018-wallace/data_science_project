@@ -220,8 +220,11 @@
         },
         {
             "name": "Hist_sat.png"
+        },
+        {
+            "name": "cleanData.csv"
         }
     ],
-    "updated_at": "2018-12-06 14:14:19",
+    "updated_at": "2018-12-06 14:27:41",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
