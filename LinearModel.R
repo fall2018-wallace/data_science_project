@@ -40,7 +40,7 @@ mod13 <- lm(Satisfaction ~ Day_of_month,data = cleanData)
 summary(mod13) #0.0001514
 
 mod14 <- lm(Satisfaction ~ Flight_date,data = cleanData)
-summary(mod14) #0.001426
+summary(mod14) #0.001182
 
 mod15 <- lm(Satisfaction ~ Airline_code,data = cleanData)
 summary(mod15) #0.0006697
