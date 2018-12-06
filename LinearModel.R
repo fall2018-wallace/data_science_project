@@ -119,3 +119,4 @@ m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel  +
 summary(m11) ##r0.4138
 
 m12 <- lm(formula = Satisfaction ~ Price_sensitivity + No_of_flights_pa)
+summary(m12)
