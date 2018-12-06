@@ -19,7 +19,7 @@ mod6 <- lm(Satisfaction ~ No_of_flights_pa,data = cleanData)
 summary(mod6) #0.05706
 
 mod7 <- lm(Satisfaction ~ Percent_of_flights_with_other_airlines,data = cleanData)
-summary(mod7) #0.004261
+summary(mod7) #0.004316
 
 mod8 <- lm(Satisfaction ~ Type_of_travel,data = cleanData)
 summary(mod8) #0.335
