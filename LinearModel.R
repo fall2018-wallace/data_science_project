@@ -34,7 +34,7 @@ mod11 <- lm(Satisfaction ~ Eating_and_drinking_at_airport,data = cleanData)
 summary(mod11) #1.041e-06
 
 mod12 <- lm(Satisfaction ~ Class,data = cleanData)
-summary(mod12) #0.002526
+summary(mod12) #0.002441
 
 mod13 <- lm(Satisfaction ~ Day_of_month,data = cleanData)
 summary(mod13) #0.0001875
