@@ -116,7 +116,7 @@ m10 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes+Type_of_t
 summary(m10) ##r= 0.4349
 
 m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel  + Airline_status  ,cleanData)
-summary(m11) ##r0.4138
+summary(m11) ##r0.4155
 
 m12 <- lm(formula = Satisfaction ~ Price_sensitivity + No_of_flights_pa)
 summary(m12)
