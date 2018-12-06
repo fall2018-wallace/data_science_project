@@ -50,6 +50,7 @@ summary(mod16) #0.0006099
 
 mod17 <- lm(Satisfaction ~ Origin_city,data = cleanData)
 summary(mod17) #0.0004748
+
 mod18 <- lm(Satisfaction ~ Origin_state,data = cleanData)
 summary(mod18) #0.0007328 
 
