@@ -66,7 +66,7 @@ inspect(rules)
 
 #plot(rules,jitter = 0)
 
-goodrules<- rules[quality(rules)$lift > 1.2] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
+goodrules<- rules[quality(rules)$lift > 1.2] #Airline status = blue and type of travel= personal travel are the ones having highest confidence
 inspect(goodrules)
 
 #plot(goodrules)
