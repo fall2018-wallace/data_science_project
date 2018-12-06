@@ -110,6 +110,17 @@
             ],
             "source": "LinearModel.R",
             "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Apriori_Southeast_Airlines.R"
         }
     ],
     "nodes": [
@@ -164,6 +175,6 @@
             "name": "Apriori_Southeast_Airlines.R"
         }
     ],
-    "updated_at": "2018-12-06 02:27:00",
+    "updated_at": "2018-12-06 02:27:16",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
