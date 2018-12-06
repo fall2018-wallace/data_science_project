@@ -10,7 +10,7 @@ mod3 <- lm(Satisfaction ~ Gender,data = cleanData)
 summary(mod3) #0.0179
 
 mod4 <- lm(Satisfaction ~ Price_sensitivity,data = cleanData)
-summary(mod4) #0.007637
+summary(mod4) #0.00776
 
 mod5 <- lm(Satisfaction ~ Year_of_flights,data = cleanData)
 summary(mod5) #6.054e-05
