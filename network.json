@@ -189,12 +189,6 @@
             "name": "Svm.R"
         },
         {
-            "assigned_to": "hmehta",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "completed"
-        },
-        {
             "name": "res_plot.png"
         },
         {
@@ -233,8 +227,14 @@
         },
         {
             "name": "cleanData.csv"
+        },
+        {
+            "assigned_to": "hmehta",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 14:27:58",
+    "updated_at": "2018-12-06 14:29:16",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
