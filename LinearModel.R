@@ -7,7 +7,7 @@ mod2 <- lm(Satisfaction ~ Age,data = cleanData)
 summary(mod2) #0.0492
 
 mod3 <- lm(Satisfaction ~ Gender,data = cleanData)
-summary(mod3) #0.01761
+summary(mod3) #0.0179
 
 mod4 <- lm(Satisfaction ~ Price_sensitivity,data = cleanData)
 summary(mod4) #0.007637
