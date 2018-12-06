@@ -132,6 +132,17 @@
             ],
             "source": "Apriori.R",
             "target": "Apriori_plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Basic_plots.R"
         }
     ],
     "nodes": [
@@ -196,6 +207,6 @@
             "name": "Basic_plots.R"
         }
     ],
-    "updated_at": "2018-12-06 13:31:57",
+    "updated_at": "2018-12-06 13:32:16",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
