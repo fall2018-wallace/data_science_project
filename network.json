@@ -153,6 +153,16 @@
             ],
             "source": "Basic_plots.R",
             "target": "Hist_sat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cleanData",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "cleanData.csv"
         }
     ],
     "nodes": [
@@ -225,6 +235,6 @@
             "name": "cleanData.csv"
         }
     ],
-    "updated_at": "2018-12-06 14:27:41",
+    "updated_at": "2018-12-06 14:27:58",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
