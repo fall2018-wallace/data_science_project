@@ -384,8 +384,11 @@
         },
         {
             "name": "rules_all.png"
+        },
+        {
+            "name": "goodrules_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:06:54",
+    "updated_at": "2018-12-07 19:07:04",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
