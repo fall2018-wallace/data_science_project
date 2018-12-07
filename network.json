@@ -253,6 +253,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "flighttime_all.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "dist",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "flightdistance_all.png"
         }
     ],
     "nodes": [
@@ -360,6 +370,6 @@
             "name": "age.png"
         }
     ],
-    "updated_at": "2018-12-07 19:03:50",
+    "updated_at": "2018-12-07 19:04:00",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
