@@ -277,16 +277,6 @@
         {
             "ports": [
                 {
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "Apriori_resultplots.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "lift_all",
                     "type": "png"
                 }
@@ -323,6 +313,57 @@
             ],
             "source": "Apriori_resultplots.R",
             "target": "freq_all.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "lift_sub",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_resultplots.R",
+            "target": "lift_sub.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rules_sub",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_resultplots.R",
+            "target": "rules_sub.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "goodrules_sub",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_resultplots.R",
+            "target": "goodrules_sub.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "freq_sub",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_resultplots.R",
+            "target": "freq_sub.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "undefined",
+                    "output": "cleanData,rules,goodrules",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "Apriori_resultplots.R"
         }
     ],
     "nodes": [
@@ -442,10 +483,24 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "Apriori_resultplots.R"
+            "name": "Apriori_resultplots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "lift_sub.png"
+        },
+        {
+            "name": "rules_sub.png"
+        },
+        {
+            "name": "goodrules_sub.png"
+        },
+        {
+            "name": "freq_sub.png"
         }
     ],
-    "updated_at": "2018-12-07 19:13:00",
+    "updated_at": "2018-12-07 19:17:22",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
