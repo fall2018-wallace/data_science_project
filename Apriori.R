@@ -60,5 +60,3 @@ lift_sub <- hist(quality(rules)$lift)
 rules_sub <- plot(rules,jitter = 0)
 goodrules<- rules[quality(rules)$lift > 1.2] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
 inspect(goodrules)
-goodrules_sub <- plot(goodrules)
-freq_sub <- itemFrequencyPlot(df,support=0.1)
