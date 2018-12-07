@@ -7,7 +7,7 @@ year_all <- boxplot(cleanData$Year_of_flights)
 
 no_all <- hist(cleanData$No_of_flights_pa) 
 
-per_all <- 
+per_all <- hist(cleanData$Percent_of_flights_with_other_airlines)
 
 date_all <- table(cleanData$Flight_date)
 
