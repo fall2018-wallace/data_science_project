@@ -6,3 +6,6 @@ ps_all <- hist(cleanData$Price_sensitivity, main= "Histogram for price sensitivi
 year_all <- boxplot(cleanData$Year_of_flights)
 
 no_all <- hist(cleanData$No_of_flights_pa) 
+
+date_all <- table(cleanData$Flight_date)
+
