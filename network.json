@@ -375,6 +375,16 @@
                     "input": "goodrules1",
                     "output": "goodrules1",
                     "type": "r_obj"
+                },
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "df1",
+                    "output": "df1",
+                    "type": "r_obj"
                 }
             ],
             "source": "Apriori.R",
@@ -516,6 +526,6 @@
             "name": "freq_sub.png"
         }
     ],
-    "updated_at": "2018-12-07 19:35:40",
+    "updated_at": "2018-12-07 19:36:58",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
