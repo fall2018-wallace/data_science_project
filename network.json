@@ -378,8 +378,11 @@
         },
         {
             "name": "age.png"
+        },
+        {
+            "name": "lift_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:04:08",
+    "updated_at": "2018-12-07 19:06:42",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
