@@ -39,10 +39,10 @@ Age <- replicate(length(cleanData$Age), "Average")
 Age[cleanData$Age <= q[1]] <- "Low"
 Age[cleanData$Age > q[2]] <- "High"
 
-df <- data.frame(satisfied, pricesensitivity, Flightspa, vBuckets ,percentflightwithotherAirlines,  Month, Departuredelay, Arrivaldelay, Flight.time, FlightDist, cleanData$Airline_status, cleanData$Gender, cleanData$Type_of_travel, cleanData$Class, cleanData$Airline_name, cleanData$Origin_city, cleanData$Origin_state, cleanData$Destination_city, cleanData$Destination_state, cleanData$Arrival_delay_greater_than_5minutes)
+df <- data.frame(satisfied, pricesensitivity, Flightspa, Age ,percentflightwithotherAirlines,  Month, Departuredelay, Arrivaldelay, Flight.time, FlightDist, cleanData$Airline_status, cleanData$Gender, cleanData$Type_of_travel, cleanData$Class, cleanData$Airline_name, cleanData$Origin_city, cleanData$Origin_state, cleanData$Destination_city, cleanData$Destination_state, cleanData$Arrival_delay_greater_than_5minutes)
 df
 
-df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, vBuckets, cleanData$Arrival_delay_greater_than_5minutes)
+df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, Age, cleanData$Arrival_delay_greater_than_5minutes)
 df1
 df1 <- as(df1, "transactions")              
 itemFrequency(df1)
@@ -50,12 +50,12 @@ itemFrequency(df1)
 rules<-apriori(df,parameter = list(support=0.1, confidence=0.5),appearance = list(default="lhs", rhs=("satisfied=no")))
 summary(rules)
 inspect(rules)
-hist(quality(rules)$lift)
+lift_all <- hist(quality(rules)$lift)
 
-plot(rules,jitter = 0)
+rules_all <- plot(rules,jitter = 0)
 
 goodrules<- rules[quality(rules)$lift > 1.2] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
 inspect(goodrules)
 
-plot(goodrules)
-itemFrequencyPlot(df,support=0.1)
+goodrules_all <- plot(goodrules)
+freq_all <- itemFrequencyPlot(df,support=0.1)
