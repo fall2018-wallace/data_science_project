@@ -30,12 +30,10 @@ Flight.time <- replicate(length(cleanData$Flight_time_in_minutes),"Average")
 Flight.time[cleanData$Flight_time_in_minutes<=100] <- "low"
 Flight.time[cleanData$Flight_time_in_minutes >300] <-"High"
 
-hist(cleanData$Flight_distance)
 FlightDist<- replicate(length(cleanData$Flight_distance),"Average")
 FlightDist[cleanData$Flight_distance <=1200] <- "less"
 FlightDist[cleanData$Flight_distance >1200] <- "More"
 
-hist(cleanData$Age)
 q <- quantile(cleanData$Age, c(0.4, 0.6))
 vBuckets <- replicate(length(cleanData$Age), "Average")
 vBuckets[cleanData$Age <= q[1]] <- "Low"
