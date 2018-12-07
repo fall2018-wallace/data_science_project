@@ -41,7 +41,8 @@ Age[cleanData$Age > q[2]] <- "High"
 
 df <- data.frame(satisfied, pricesensitivity, Flightspa, Age ,percentflightwithotherAirlines,  Month, Departuredelay, Arrivaldelay, Flight.time, FlightDist, cleanData$Airline_status, cleanData$Gender, cleanData$Type_of_travel, cleanData$Class, cleanData$Airline_name, cleanData$Origin_city, cleanData$Origin_state, cleanData$Destination_city, cleanData$Destination_state, cleanData$Arrival_delay_greater_than_5minutes)
 df
-
+df1 <- as(df1, "transactions")              
+itemFrequency(df1)
 df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, Age, cleanData$Arrival_delay_greater_than_5minutes)
 df1
 df1 <- as(df1, "transactions")              
