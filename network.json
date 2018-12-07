@@ -313,6 +313,16 @@
             ],
             "source": "Apriori_resultplots.R",
             "target": "goodrules_all.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "freq_all",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_resultplots.R",
+            "target": "freq_all.png"
         }
     ],
     "nodes": [
@@ -436,6 +446,6 @@
             "name": "Apriori_resultplots.R"
         }
     ],
-    "updated_at": "2018-12-07 19:12:50",
+    "updated_at": "2018-12-07 19:13:00",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
