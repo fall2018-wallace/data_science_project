@@ -17,3 +17,4 @@ arr <- table(cleanData$Arrival_delay_in_minutes)
 
 time <- hist(cleanData$Flight_time_in_minutes)
 
+dist <- hist(cleanData$Flight_distance)
