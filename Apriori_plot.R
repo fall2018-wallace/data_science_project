@@ -12,3 +12,4 @@ per <- hist(cleanData$Percent_of_flights_with_other_airlines)
 date <- table(cleanData$Flight_date)
 
 dep <- table(cleanData$Departure_delay_in_minutes)
+
