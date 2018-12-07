@@ -43,6 +43,7 @@ df <- data.frame(satisfied, pricesensitivity, Flightspa, Age ,percentflightwitho
 df
 df1 <- as(df1, "transactions")              
 itemFrequency(df1)
+
 df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, Age, cleanData$Arrival_delay_greater_than_5minutes)
 df1
 df1 <- as(df1, "transactions")              
