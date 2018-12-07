@@ -35,9 +35,9 @@ FlightDist[cleanData$Flight_distance <=1200] <- "less"
 FlightDist[cleanData$Flight_distance >1200] <- "More"
 
 q <- quantile(cleanData$Age, c(0.4, 0.6))
-vBuckets <- replicate(length(cleanData$Age), "Average")
-vBuckets[cleanData$Age <= q[1]] <- "Low"
-vBuckets[cleanData$Age > q[2]] <- "High"
+Age <- replicate(length(cleanData$Age), "Average")
+Age[cleanData$Age <= q[1]] <- "Low"
+Age[cleanData$Age > q[2]] <- "High"
 
 df <- data.frame(satisfied, pricesensitivity, Flightspa, vBuckets ,percentflightwithotherAirlines,  Month, Departuredelay, Arrivaldelay, Flight.time, FlightDist, cleanData$Airline_status, cleanData$Gender, cleanData$Type_of_travel, cleanData$Class, cleanData$Airline_name, cleanData$Origin_city, cleanData$Origin_state, cleanData$Destination_city, cleanData$Destination_state, cleanData$Arrival_delay_greater_than_5minutes)
 df
