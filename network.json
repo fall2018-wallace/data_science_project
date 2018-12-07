@@ -270,8 +270,11 @@
         },
         {
             "name": "percentofflights_all.png"
+        },
+        {
+            "name": "flightdate_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:00:40",
+    "updated_at": "2018-12-07 19:01:05",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
