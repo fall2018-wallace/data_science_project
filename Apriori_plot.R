@@ -7,5 +7,7 @@ year_all <- boxplot(cleanData$Year_of_flights)
 
 no_all <- hist(cleanData$No_of_flights_pa) 
 
+per_all <- 
+
 date_all <- table(cleanData$Flight_date)
 
