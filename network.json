@@ -172,7 +172,7 @@
                 }
             ],
             "source": "Apriori_plot.R",
-            "target": "sat_all.png"
+            "target": "satisfaction_all.png"
         },
         {
             "ports": [
@@ -251,7 +251,7 @@
             "task_status": "completed"
         },
         {
-            "name": "sat_all.png"
+            "name": "satisfaction_all.png"
         },
         {
             "name": "ps_all.png"
@@ -263,6 +263,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 18:43:51",
+    "updated_at": "2018-12-07 18:44:38",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
