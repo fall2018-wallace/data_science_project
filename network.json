@@ -267,8 +267,11 @@
         },
         {
             "name": "Noofflightspa_all.png"
+        },
+        {
+            "name": "percentofflights_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:00:09",
+    "updated_at": "2018-12-07 19:00:40",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
