@@ -213,6 +213,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "percentofflights_all.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "date",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "flightdate_all.png"
         }
     ],
     "nodes": [
@@ -305,6 +315,6 @@
             "name": "flightdate_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:01:35",
+    "updated_at": "2018-12-07 19:01:44",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
