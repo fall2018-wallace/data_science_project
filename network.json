@@ -316,8 +316,11 @@
         },
         {
             "name": "departuredelay_all.png"
+        },
+        {
+            "name": "arrivaldelay_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:02:23",
+    "updated_at": "2018-12-07 19:02:36",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
