@@ -283,6 +283,16 @@
             ],
             "source": "Apriori.R",
             "target": "Apriori_resultplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "lift_all",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_resultplots.R",
+            "target": "lift_all.png"
         }
     ],
     "nodes": [
@@ -406,6 +416,6 @@
             "name": "Apriori_resultplots.R"
         }
     ],
-    "updated_at": "2018-12-07 19:09:33",
+    "updated_at": "2018-12-07 19:12:27",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
