@@ -77,7 +77,7 @@
                     "type": "png"
                 }
             ],
-            "source": "plot.R",
+            "source": "linear_plot.R",
             "target": "res_plot.png"
         },
         {
@@ -87,7 +87,7 @@
                     "type": "png"
                 }
             ],
-            "source": "plot.R",
+            "source": "linear_plot.R",
             "target": "res_plot2.png"
         },
         {
@@ -109,7 +109,7 @@
                 }
             ],
             "source": "LinearModel.R",
-            "target": "plot.R"
+            "target": "linear_plot.R"
         },
         {
             "ports": [
@@ -218,12 +218,6 @@
             "task_status": "validating"
         },
         {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "plot.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "res_plot2.png"
         },
         {
@@ -261,8 +255,14 @@
         },
         {
             "name": "ps_all.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "linear_plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-07 18:39:56",
+    "updated_at": "2018-12-07 18:43:50",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
