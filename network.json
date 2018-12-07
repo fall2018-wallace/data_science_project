@@ -163,6 +163,16 @@
             ],
             "source": "clean.R",
             "target": "cleanData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "sat_all",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "sat_all.png"
         }
     ],
     "nodes": [
@@ -240,6 +250,6 @@
             "name": "sat_all.png"
         }
     ],
-    "updated_at": "2018-12-07 18:39:19",
+    "updated_at": "2018-12-07 18:39:33",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
