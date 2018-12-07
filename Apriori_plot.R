@@ -13,3 +13,4 @@ date <- table(cleanData$Flight_date)
 
 dep <- table(cleanData$Departure_delay_in_minutes)
 
+arr <- table(cleanData$Arrival_delay_in_minutes)
