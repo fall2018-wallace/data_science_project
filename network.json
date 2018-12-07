@@ -357,12 +357,23 @@
         {
             "ports": [
                 {
-                    "input": "undefined",
+                    "input": "rules",
                     "output": "rules",
                     "type": "r_obj"
                 },
                 {
+                    "input": "goodrules",
                     "output": "goodrules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "rules1",
+                    "output": "rules1",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "goodrules1",
+                    "output": "goodrules1",
                     "type": "r_obj"
                 }
             ],
@@ -505,6 +516,6 @@
             "name": "freq_sub.png"
         }
     ],
-    "updated_at": "2018-12-07 19:33:42",
+    "updated_at": "2018-12-07 19:35:40",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
