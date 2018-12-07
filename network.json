@@ -273,6 +273,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "age.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "lift_all",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "lift_all.png"
         }
     ],
     "nodes": [
@@ -392,6 +402,6 @@
             "name": "freq_all.png"
         }
     ],
-    "updated_at": "2018-12-07 19:07:17",
+    "updated_at": "2018-12-07 19:07:34",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
