@@ -136,16 +136,6 @@
         {
             "ports": [
                 {
-                    "output": "Hist_sat",
-                    "type": "png"
-                }
-            ],
-            "source": "Basic_plots.R",
-            "target": "Hist_sat.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "cleanData",
                     "type": "csv"
                 }
@@ -442,9 +432,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "Hist_sat.png"
-        },
-        {
             "name": "cleanData.csv"
         },
         {
@@ -538,6 +525,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 00:31:49",
+    "updated_at": "2018-12-09 00:32:50",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
