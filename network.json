@@ -389,6 +389,16 @@
             ],
             "source": "Apriori.R",
             "target": "Apriori_resultplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "Basic_plots.R"
         }
     ],
     "nodes": [
@@ -526,6 +536,6 @@
             "name": "freq_sub.png"
         }
     ],
-    "updated_at": "2018-12-07 19:36:58",
+    "updated_at": "2018-12-09 00:24:29",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
