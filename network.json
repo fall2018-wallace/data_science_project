@@ -297,9 +297,6 @@
             "task_status": "completed"
         },
         {
-            "name": "departuredelay_all.png"
-        },
-        {
             "name": "lift_all.png"
         },
         {
@@ -354,6 +351,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 06:51:17",
+    "updated_at": "2018-12-09 06:51:25",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
