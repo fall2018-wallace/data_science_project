@@ -297,9 +297,6 @@
             "task_status": "completed"
         },
         {
-            "name": "percentofflights_all.png"
-        },
-        {
             "name": "flightdate_all.png"
         },
         {
@@ -372,6 +369,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 06:50:26",
+    "updated_at": "2018-12-09 06:50:32",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
