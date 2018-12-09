@@ -250,22 +250,22 @@
         {
             "ports": [
                 {
-                    "output": "goodrules_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "goodrules_all.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "goodrules_sub",
                     "type": "png"
                 }
             ],
             "source": "Apriori.R",
             "target": "goodrules_sub.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "goodrules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "goodrules_all.png"
         }
     ],
     "nodes": [
@@ -364,6 +364,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 06:56:35",
+    "updated_at": "2018-12-09 07:10:28",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
