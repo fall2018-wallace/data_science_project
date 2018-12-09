@@ -387,16 +387,6 @@
             ],
             "source": "Basic_plots.R",
             "target": "g5.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "p1",
-                    "type": "png"
-                }
-            ],
-            "source": "LinearModel.R",
-            "target": "p1.png"
         }
     ],
     "nodes": [
@@ -532,11 +522,8 @@
             "desc": "",
             "name": "Basic_plots.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "p1.png"
         }
     ],
-    "updated_at": "2018-12-09 06:21:21",
+    "updated_at": "2018-12-09 06:36:08",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
