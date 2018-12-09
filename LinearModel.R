@@ -87,6 +87,7 @@ summary(mod27) #0.02529
 #best model
 m1<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel ,cleanData)
 summary(m1)##0.41
+p1 <- plot(m1)
 
 m2<- lm(formula = Satisfaction ~ Type_of_travel + Class,cleanData)
 summary(m2) #r=0.3358
