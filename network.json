@@ -195,9 +195,6 @@
             "name": "g5.png"
         },
         {
-            "name": "goodrules_all.png"
-        },
-        {
             "name": "goodrules_sub.png"
         },
         {
@@ -207,6 +204,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 23:40:09",
+    "updated_at": "2018-12-09 23:40:14",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
