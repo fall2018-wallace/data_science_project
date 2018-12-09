@@ -62,17 +62,6 @@
         {
             "ports": [
                 {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Apriori_Southeast_Airlines.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "cleanData",
                     "type": "csv"
                 }
@@ -205,13 +194,18 @@
             "name": "Apriori.R"
         },
         {
+            "assigned_to": "hrdarji23",
             "desc": "",
-            "name": "renaming.R"
+            "name": "renaming.R",
+            "task_status": "in progress"
         },
         {
             "name": "SS.csv"
+        },
+        {
+            "name": "csvfile8949.csv"
         }
     ],
-    "updated_at": "2018-12-09 23:46:27",
+    "updated_at": "2018-12-09 23:49:51",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
