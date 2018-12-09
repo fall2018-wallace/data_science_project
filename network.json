@@ -84,133 +84,12 @@
         {
             "ports": [
                 {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "Apriori_basicplots.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "cleanData",
                     "type": "csv"
                 }
             ],
             "source": "clean.R",
             "target": "cleanData.csv"
-        },
-        {
-            "ports": [
-                {
-                    "output": "sat",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "satisfaction_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ps",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "pricesensitivity_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "year",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "Yearofflight_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "no",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "Noofflightspa_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "per",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "percentofflights_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "date",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "flightdate_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "dep",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "departuredelay_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "arr",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "arrivaldelay_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "time",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "flighttime_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "dist",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "flightdistance_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "age",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_basicplots.R",
-            "target": "age.png"
         },
         {
             "ports": [
@@ -231,16 +110,6 @@
             ],
             "source": "Apriori_resultplots.R",
             "target": "rules_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "goodrules_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "goodrules_all.png"
         },
         {
             "ports": [
@@ -271,16 +140,6 @@
             ],
             "source": "Apriori_resultplots.R",
             "target": "rules_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "goodrules_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "goodrules_sub.png"
         },
         {
             "ports": [
@@ -387,6 +246,26 @@
             ],
             "source": "Basic_plots.R",
             "target": "g5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "goodrules_all",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "goodrules_all.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "goodrules_sub",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "goodrules_sub.png"
         }
     ],
     "nodes": [
@@ -401,12 +280,6 @@
             "desc": "",
             "name": "Rename_columns.R",
             "task_status": "completed"
-        },
-        {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "Apriori.R",
-            "task_status": "in progress"
         },
         {
             "desc": "",
@@ -434,70 +307,19 @@
             "task_status": "completed"
         },
         {
-            "name": "satisfaction_all.png"
-        },
-        {
-            "name": "pricesensitivity_all.png"
-        },
-        {
-            "name": "Yearofflight_all.png"
-        },
-        {
-            "name": "Noofflightspa_all.png"
-        },
-        {
-            "name": "percentofflights_all.png"
-        },
-        {
-            "name": "flightdate_all.png"
-        },
-        {
-            "name": "departuredelay_all.png"
-        },
-        {
-            "name": "arrivaldelay_all.png"
-        },
-        {
-            "name": "flighttime_all.png"
-        },
-        {
-            "name": "flightdistance_all.png"
-        },
-        {
-            "name": "age.png"
-        },
-        {
             "name": "lift_all.png"
         },
         {
             "name": "rules_all.png"
         },
         {
-            "name": "goodrules_all.png"
-        },
-        {
             "name": "freq_all.png"
-        },
-        {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "Apriori_basicplots.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "Apriori_resultplots.R",
-            "task_status": "in progress"
         },
         {
             "name": "lift_sub.png"
         },
         {
             "name": "rules_sub.png"
-        },
-        {
-            "name": "goodrules_sub.png"
         },
         {
             "name": "freq_sub.png"
@@ -520,10 +342,28 @@
         {
             "assigned_to": "rshett02",
             "desc": "",
-            "name": "Basic_plots.R",
+            "name": "Apriori_resultplots.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "goodrules_all.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "Apriori.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "goodrules_sub.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "Basic_plots.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-09 01:17:04",
+    "updated_at": "2018-12-09 06:56:26",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
