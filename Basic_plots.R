@@ -22,7 +22,7 @@ g1 <- ggplot(sat_airlinestatus, aes(x=Airline.status, y=Satisfaction)) +
 
 
 library(scales)
-theme_set(theme_classic())
+
 
 # Dot Plot for exploring typle of travel
 sat_type <- aggregate(cleanData$Satisfaction, by=list(cleanData$Type_of_travel), FUN=mean)  # aggregate
