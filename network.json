@@ -195,15 +195,12 @@
             "name": "g5.png"
         },
         {
-            "name": "goodrules_sub.png"
-        },
-        {
             "assigned_to": "rshett02",
             "desc": "",
             "name": "Basic_plots.R",
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 23:40:14",
+    "updated_at": "2018-12-09 23:40:21",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
