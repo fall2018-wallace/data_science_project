@@ -136,17 +136,6 @@
         {
             "ports": [
                 {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Basic_plots.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "Hist_sat",
                     "type": "png"
                 }
@@ -534,8 +523,11 @@
         },
         {
             "name": "freq_sub.png"
+        },
+        {
+            "name": "g1.png"
         }
     ],
-    "updated_at": "2018-12-09 00:24:29",
+    "updated_at": "2018-12-09 00:29:03",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
