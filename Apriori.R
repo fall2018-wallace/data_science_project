@@ -52,17 +52,3 @@ goodrules<- rules[quality(rules)$lift > 1.2] #Airline status = blue and type of 
 inspect(goodrules)
 goodrules_all <- plot(goodrules)
 freq_all <- itemFrequencyPlot(df,support=0.1)
-
-df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, Age, cleanData$Arrival_delay_greater_than_5minutes)
-df1
-df1 <- as(df1, "transactions")              
-itemFrequency(df1)
-rules<-apriori(df,parameter = list(support=0.1, confidence=0.5),appearance = list(default="lhs", rhs=("satisfied=no")))
-summary(rules)
-inspect(rules)
-lift_sub <- hist(quality(rules)$lift)
-rules_sub <- plot(rules,jitter = 0)
-goodrules<- rules[quality(rules)$lift > 1.2] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
-inspect(goodrules)
-goodrules_sub <- plot(goodrules)
-freq_sub <- itemFrequencyPlot(df,support=0.1)
