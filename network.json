@@ -199,8 +199,12 @@
             "desc": "",
             "name": "Basic_plots.R",
             "task_status": "completed"
+        },
+        {
+            "desc": "",
+            "name": "Apriori.R"
         }
     ],
-    "updated_at": "2018-12-09 23:40:21",
+    "updated_at": "2018-12-09 23:41:13",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
