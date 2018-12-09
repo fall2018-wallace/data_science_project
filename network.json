@@ -83,66 +83,6 @@
         {
             "ports": [
                 {
-                    "output": "lift_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "lift_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "rules_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "rules_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "freq_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "freq_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "lift_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "lift_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "rules_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "rules_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "freq_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "freq_sub.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "cleanData",
                     "type": "csv"
                 }
@@ -273,12 +213,6 @@
             "name": "g5.png"
         },
         {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "Apriori_resultplots.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "goodrules_all.png"
         },
         {
@@ -291,6 +225,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 23:39:02",
+    "updated_at": "2018-12-09 23:39:14",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
