@@ -388,6 +388,16 @@
             ],
             "source": "Basic_plots.R",
             "target": "g1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g2",
+                    "type": "png"
+                }
+            ],
+            "source": "Basic_plots.R",
+            "target": "g2.png"
         }
     ],
     "nodes": [
@@ -528,6 +538,6 @@
             "name": "g2.png"
         }
     ],
-    "updated_at": "2018-12-09 00:38:45",
+    "updated_at": "2018-12-09 00:39:05",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
