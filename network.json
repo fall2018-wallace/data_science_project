@@ -154,12 +154,6 @@
             "task_status": "validating"
         },
         {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "Apriori_Southeast_Airlines.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "cleanData.csv"
         },
         {
@@ -200,6 +194,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 23:54:33",
+    "updated_at": "2018-12-09 23:54:45",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
