@@ -75,7 +75,7 @@ cleanData$Age_category[cleanData$Age > q[2]] <- "Old" ##if age falls within 2nd 
 
 # Histogram on a Gender variable
 g5 <- ggplot(cleanData, aes(Age_category))
-g5 + geom_bar(aes(fill=satisfied), width = 0.5) + 
+g5 <- g5 + geom_bar(aes(fill=satisfied), width = 0.5) + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
   labs(title="Frequency for Age Groups", 
        subtitle="Age Groups across Satisfied") 
