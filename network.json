@@ -536,8 +536,11 @@
         },
         {
             "name": "g2.png"
+        },
+        {
+            "name": "g3.png"
         }
     ],
-    "updated_at": "2018-12-09 00:39:05",
+    "updated_at": "2018-12-09 00:40:35",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
