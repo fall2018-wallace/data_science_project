@@ -65,7 +65,7 @@ g4 <- ggplot(cleanData, aes(Gender))
 g4 + geom_bar(aes(fill=Airline_status), width = 0.5) + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6)) + 
   labs(title="Frequency for Gender", 
-       subtitle="Gender across Airline Status") + ylab()
+       subtitle="Gender across Airline Status") 
 
 q <- quantile(cleanData$Age, c(0.2, 0.75)) #age is cut into quantiles
 cleanData$Age_category <- replicate(length(cleanData$Age), "Middle Age")
