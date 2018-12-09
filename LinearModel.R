@@ -84,9 +84,10 @@ summary(mod26) #5.313e-06
 mod27 <- lm(Satisfaction ~ Arrival_delay_greater_than_5minutes,data = cleanData)
 summary(mod27) #0.02529 
 
-
+#best model
 m1<- lm(formula = Satisfaction ~ Airline_status + Type_of_travel ,cleanData)
-summary(m1)##0.4084
+summary(m1)##0.41
+
 m2<- lm(formula = Satisfaction ~ Type_of_travel + Class,cleanData)
 summary(m2) #r=0.3358
 
@@ -110,9 +111,12 @@ summary(m8) #r=0.3459
 
 m9 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes + Type_of_travel + Destination_city , cleanData)
 summary(m9) #r= 0.3619
-
+#best model
 m10 <- lm(formula = Satisfaction ~ Arrival_delay_greater_than_5minutes+Type_of_travel + Airline_status ,cleanData)
 summary(m10) ##r= 0.4349
 
 m11 <- lm(formula = Satisfaction ~ Departure_delay_in_minutes +Type_of_travel  + Airline_status  ,cleanData)
-summary(m11) ##r0.4138
+summary(m11) ##r0.4155
+
+m12 <- lm(formula = Satisfaction ~ Price_sensitivity + No_of_flights_pa, cleanData)
+summary(m12)
