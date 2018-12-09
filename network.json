@@ -342,12 +342,6 @@
         {
             "assigned_to": "rshett02",
             "desc": "",
-            "name": "Basic_plots.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "rshett02",
-            "desc": "",
             "name": "Apriori_resultplots.R",
             "task_status": "in progress"
         },
@@ -362,8 +356,14 @@
         },
         {
             "name": "goodrules_sub.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "Basic_plots.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-09 06:53:53",
+    "updated_at": "2018-12-09 06:56:26",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
