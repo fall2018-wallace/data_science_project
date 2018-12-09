@@ -522,8 +522,11 @@
             "desc": "",
             "name": "Basic_plots.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "p1.png"
         }
     ],
-    "updated_at": "2018-12-09 06:16:05",
+    "updated_at": "2018-12-09 06:20:55",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
