@@ -57,17 +57,6 @@
                 }
             ],
             "source": "clean.R",
-            "target": "Apriori.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
             "target": "Svm.R"
         },
         {
@@ -154,42 +143,6 @@
         {
             "ports": [
                 {
-                    "input": "rules",
-                    "output": "rules",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "goodrules",
-                    "output": "goodrules",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "rules1",
-                    "output": "rules1",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "goodrules1",
-                    "output": "goodrules1",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "df",
-                    "output": "df",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "df1",
-                    "output": "df1",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "Apriori_resultplots.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "cleanData",
                     "type": "csv"
                 }
@@ -246,26 +199,6 @@
             ],
             "source": "Basic_plots.R",
             "target": "g5.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "goodrules_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "goodrules_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "goodrules",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "goodrules_all.png"
         }
     ],
     "nodes": [
@@ -356,14 +289,8 @@
             "desc": "",
             "name": "Basic_plots.R",
             "task_status": "completed"
-        },
-        {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "Apriori.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 23:38:01",
+    "updated_at": "2018-12-09 23:39:02",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
