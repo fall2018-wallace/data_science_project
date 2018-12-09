@@ -73,16 +73,6 @@
         {
             "ports": [
                 {
-                    "output": "res_plot",
-                    "type": "png"
-                }
-            ],
-            "source": "linear_plot.R",
-            "target": "res_plot.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "res",
                     "output": "res",
                     "type": "r_obj"
@@ -444,9 +434,6 @@
             "name": "Svm.R"
         },
         {
-            "name": "res_plot.png"
-        },
-        {
             "assigned_to": "rshett02",
             "desc": "",
             "name": "LinearModel.R",
@@ -564,6 +551,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 01:16:37",
+    "updated_at": "2018-12-09 01:16:50",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
