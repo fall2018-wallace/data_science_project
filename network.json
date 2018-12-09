@@ -203,11 +203,8 @@
         {
             "desc": "",
             "name": "Apriori.R"
-        },
-        {
-            "name": "SS.csv"
         }
     ],
-    "updated_at": "2018-12-09 23:44:07",
+    "updated_at": "2018-12-09 23:45:23",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
