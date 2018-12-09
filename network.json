@@ -349,8 +349,11 @@
             "desc": "",
             "name": "Apriori.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "goodrules_sub.png"
         }
     ],
-    "updated_at": "2018-12-09 06:51:25",
+    "updated_at": "2018-12-09 06:53:28",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
