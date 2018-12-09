@@ -17,7 +17,7 @@ head(sat_airlinestatus, 4)
 g1 <- ggplot(sat_airlinestatus, aes(x=Airline.status, y=Satisfaction)) + 
   geom_bar(stat="identity", width=.5, fill="tomato3") + 
   labs(title="Ordered Bar Chart", 
-       subtitle="Airline.status VS Average Satisfaction") + 
+       subtitle="Airline.status VS Average Satisfaction", y= "satisfaction") + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6))
 
 
