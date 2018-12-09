@@ -442,12 +442,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "Basic_plots.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Hist_sat.png"
         },
         {
@@ -536,8 +530,14 @@
         },
         {
             "name": "g1.png"
+        },
+        {
+            "assigned_to": "urvi15mistry",
+            "desc": "",
+            "name": "Basic_plots.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 00:29:28",
+    "updated_at": "2018-12-09 00:31:39",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
