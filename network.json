@@ -180,9 +180,6 @@
             "task_status": "completed"
         },
         {
-            "name": "rules_sub.png"
-        },
-        {
             "name": "freq_sub.png"
         },
         {
@@ -213,6 +210,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 23:39:44",
+    "updated_at": "2018-12-09 23:40:03",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
