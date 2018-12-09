@@ -180,9 +180,6 @@
             "task_status": "completed"
         },
         {
-            "name": "lift_sub.png"
-        },
-        {
             "name": "rules_sub.png"
         },
         {
@@ -216,6 +213,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-09 23:39:37",
+    "updated_at": "2018-12-09 23:39:44",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
