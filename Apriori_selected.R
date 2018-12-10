@@ -2,6 +2,7 @@
 ##association rule mining 
 library(arules)
 library(arulesViz)
+library(dplyr)
 
 satisfied <- ifelse(cleanData$Satisfaction < 3.5,"no","yes")
 
