@@ -143,6 +143,17 @@
             ],
             "source": "cleanData.csv",
             "target": "Apriori_selected.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "output": "cleanData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Apriori.R"
         }
     ],
     "nodes": [
@@ -208,15 +219,15 @@
             "assigned_to": "urvi15mistry",
             "desc": "",
             "name": "Apriori.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "rshett02",
             "desc": "",
             "name": "Apriori_selected.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-09 23:59:57",
+    "updated_at": "2018-12-10 00:02:40",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
