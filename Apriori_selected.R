@@ -12,7 +12,7 @@ q <- quantile(cleanData$Age, c(0.4, 0.6))
 Age <- replicate(length(cleanData$Age), "Average")
 Age[cleanData$Age <= q[1]] <- "Low"
 Age[cleanData$Age > q[2]] <- "High"
-
+Age
 df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, Age, cleanData$Arrival_delay_greater_than_5minutes)
 df1 <- as(df1, "transactions")              
 itemFrequency(df1)
