@@ -204,6 +204,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "Scatterplot_goodrules.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Itemfrequencyplot",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "Itemfrequencyplot.png"
         }
     ],
     "nodes": [
@@ -296,6 +306,6 @@
             "name": "Itemfrequencyplot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:24:54",
+    "updated_at": "2018-12-10 00:25:09",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
