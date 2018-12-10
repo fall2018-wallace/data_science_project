@@ -44,8 +44,6 @@ df <- data.frame(satisfied, pricesensitivity, Flightspa, Age ,percentflightwitho
 rules<-apriori(df,parameter = list(support=0.1, confidence=0.5),appearance = list(default="lhs", rhs=("satisfied=no")))
 summary(rules)
 inspect(rules)
-hist(quality(rules)$lift)
-plot(rules,jitter = 0)
 goodrules<- rules[quality(rules)$lift > 2.0] 
 inspect(goodrules)
 plot(goodrules)
