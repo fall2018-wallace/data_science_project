@@ -47,6 +47,7 @@ summary(rules)
 inspect(rules)
 hist(quality(rules)$lift)
 plot(rules,jitter = 0)
-goodrules<- rules[quality(rules)$lift > 2.0] inspect(goodrules)
+goodrules<- rules[quality(rules)$lift > 2.0] 
+inspect(goodrules)
 plot(goodrules)
 itemFrequencyPlot(df,support=0.1)
