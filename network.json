@@ -184,6 +184,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "Histogram_liftvalues_rules.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_rules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "plot_rules.png"
         }
     ],
     "nodes": [
@@ -270,6 +280,6 @@
             "name": "plot_rules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:23:20",
+    "updated_at": "2018-12-10 00:23:40",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
