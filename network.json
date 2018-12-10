@@ -157,27 +157,6 @@
         {
             "ports": [
                 {
-                    "input": "rules",
-                    "output": "rules",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "goodrules",
-                    "output": "goodrules",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "df",
-                    "output": "df",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "Apriori_plot.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "Histogram_rules",
                     "type": "png"
                 }
@@ -234,6 +213,32 @@
             ],
             "source": "Apriori_selected.R",
             "target": "arGoodrules.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rules",
+                    "output": "rules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "goodrules",
+                    "output": "goodrules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "lifts",
+                    "output": "lifts",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "Apriori_plot.R"
         }
     ],
     "nodes": [
@@ -332,6 +337,6 @@
             "name": "arGoodrules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:26:21",
+    "updated_at": "2018-12-10 00:31:04",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
