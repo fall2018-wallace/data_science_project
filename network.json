@@ -57,29 +57,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "Apriori.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
             "target": "Svm.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "Apriori_Southeast_Airlines.R"
         },
         {
             "ports": [
@@ -90,102 +68,6 @@
             ],
             "source": "clean.R",
             "target": "cleanData.csv"
-        },
-        {
-            "ports": [
-                {
-                    "output": "lift_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "lift_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "rules_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "rules_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "freq_all",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "freq_all.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "lift_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "lift_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "rules_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "rules_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "freq_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori_resultplots.R",
-            "target": "freq_sub.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "rules",
-                    "output": "rules",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "goodrules",
-                    "output": "goodrules",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "rules1",
-                    "output": "rules1",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "goodrules1",
-                    "output": "goodrules1",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "df",
-                    "output": "df",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "df1",
-                    "output": "df1",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "Apriori_resultplots.R"
         },
         {
             "ports": [
@@ -248,24 +130,115 @@
             "target": "g5.png"
         },
         {
-            "ports": [
-                {
-                    "output": "goodrules_sub",
-                    "type": "png"
-                }
-            ],
-            "source": "Apriori.R",
-            "target": "goodrules_sub.png"
+            "ports": [],
+            "source": "satisfactionSurvey.csv",
+            "target": "renaming.R"
         },
         {
             "ports": [
                 {
-                    "output": "goodrules",
+                    "input": "cleanData",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "Apriori_selected.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanData",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanData.csv",
+            "target": "Apriori.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Histogram_rules",
                     "type": "png"
                 }
             ],
+            "source": "Apriori_plot.R",
+            "target": "Histogram_liftvalues_rules.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_rules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "Scatterplot_rules.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_goodrules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "Scatterplot_goodrules.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Itemfrequencyplot",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "Itemfrequencyplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_selected.R",
+            "target": "arPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arGoodrules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_selected.R",
+            "target": "arGoodrules.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rules",
+                    "output": "rules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "goodrules",
+                    "output": "goodrules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "lifts",
+                    "output": "lifts",
+                    "type": "r_obj"
+                }
+            ],
             "source": "Apriori.R",
-            "target": "goodrules_all.png"
+            "target": "Apriori_plot.R"
         }
     ],
     "nodes": [
@@ -292,12 +265,6 @@
             "task_status": "validating"
         },
         {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "Apriori_Southeast_Airlines.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "cleanData.csv"
         },
         {
@@ -305,24 +272,6 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "completed"
-        },
-        {
-            "name": "lift_all.png"
-        },
-        {
-            "name": "rules_all.png"
-        },
-        {
-            "name": "freq_all.png"
-        },
-        {
-            "name": "lift_sub.png"
-        },
-        {
-            "name": "rules_sub.png"
-        },
-        {
-            "name": "freq_sub.png"
         },
         {
             "name": "g1.png"
@@ -342,28 +291,52 @@
         {
             "assigned_to": "rshett02",
             "desc": "",
-            "name": "Apriori_resultplots.R",
-            "task_status": "in progress"
-        },
-        {
-            "name": "goodrules_all.png"
-        },
-        {
-            "name": "goodrules_sub.png"
-        },
-        {
-            "assigned_to": "rshett02",
-            "desc": "",
             "name": "Basic_plots.R",
             "task_status": "completed"
         },
         {
-            "assigned_to": "rshett02",
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "renaming.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "urvi15mistry",
             "desc": "",
             "name": "Apriori.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "Apriori_selected.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "urvi15mistry",
+            "desc": "",
+            "name": "Apriori_plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Histogram_liftvalues_rules.png"
+        },
+        {
+            "name": "Scatterplot_rules.png"
+        },
+        {
+            "name": "Scatterplot_goodrules.png"
+        },
+        {
+            "name": "Itemfrequencyplot.png"
+        },
+        {
+            "name": "arPlot.png"
+        },
+        {
+            "name": "arGoodrules.png"
         }
     ],
-    "updated_at": "2018-12-09 23:38:01",
+    "updated_at": "2018-12-10 00:31:04",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
