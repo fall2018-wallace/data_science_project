@@ -22,7 +22,7 @@ rules1<-apriori(df1,parameter = list(support=0.1, confidence=0.5),appearance = l
 summary(rules1)
 inspect(rules1)
 
-arPlot <- plot(rules1,jitter = 0)
+arPlot <- plot(rules1)
 
 goodrules1<- rules1[quality(rules1)$lift > 1.8] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
 inspect(goodrules1)
