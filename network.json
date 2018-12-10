@@ -291,8 +291,11 @@
         },
         {
             "name": "Scatterplot_goodrules.png"
+        },
+        {
+            "name": "Itemfrequencyplot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:24:23",
+    "updated_at": "2018-12-10 00:24:54",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
