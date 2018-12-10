@@ -6,10 +6,13 @@ library(arulesViz)
 library(dplyr)
 cleanData$Satisfaction <- as.numeric(as.character(cleanData$Satisfaction))
 satisfied <- ifelse(cleanData$Satisfaction < 3.5,"no","yes")
-pricesensitivity <- ifelse(cleanData$Price_sensitivity<3,"low","high")
-Flightspa <- ifelse(cleanData$No_of_flights_pa <40, "low", "high")
-percentflightwithotherAirlines <- ifelse(cleanData$Percent_of_flights_with_other_airlines<=10,"less than 10","more then 10")
 
-Departuredelay <- replicate(length(cleanData$Departure_delay_in_minutes),"Average")
-Departuredelay[cleanData$Departure_delay_in_minutes<=60] <- "low"
-Departuredelay[cleanData$Departure_delay_in_minutes>180] <- "High"
+Flightspa <- ifelse(cleanData$No_of_flights_pa <40, "low", "high")
+
+q <- quantile(cleanData$Age, c(0.4, 0.6))
+Age <- replicate(length(cleanData$Age), "Average")
+Age[cleanData$Age <= q[1]] <- "Low"
+Age[cleanData$Age > q[2]] <- "High"
+
+df1 <- data.frame(satisfied, cleanData$Airline_status, cleanData$Type_of_travel,  Flightspa, Age, cleanData$Arrival_delay_greater_than_5minutes)
+
