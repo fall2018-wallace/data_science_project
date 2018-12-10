@@ -153,6 +153,27 @@
             ],
             "source": "cleanData.csv",
             "target": "Apriori.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "rules",
+                    "output": "rules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "goodrules",
+                    "output": "goodrules",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Apriori.R",
+            "target": "Apriori_plot.R"
         }
     ],
     "nodes": [
@@ -231,6 +252,6 @@
             "name": "Apriori_plot.R"
         }
     ],
-    "updated_at": "2018-12-10 00:19:18",
+    "updated_at": "2018-12-10 00:20:23",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
