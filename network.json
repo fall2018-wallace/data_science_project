@@ -194,6 +194,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "Scatterplot_rules.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_goodrules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_plot.R",
+            "target": "Scatterplot_goodrules.png"
         }
     ],
     "nodes": [
@@ -283,6 +293,6 @@
             "name": "Scatterplot_goodrules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:24:09",
+    "updated_at": "2018-12-10 00:24:23",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
