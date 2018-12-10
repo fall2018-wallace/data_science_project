@@ -224,6 +224,16 @@
             ],
             "source": "Apriori_selected.R",
             "target": "arPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arGoodrules",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_selected.R",
+            "target": "arGoodrules.png"
         }
     ],
     "nodes": [
@@ -322,6 +332,6 @@
             "name": "arGoodrules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:26:01",
+    "updated_at": "2018-12-10 00:26:21",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
