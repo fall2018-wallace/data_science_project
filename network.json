@@ -193,7 +193,7 @@
                 }
             ],
             "source": "Apriori_plot.R",
-            "target": "plot_rules.png"
+            "target": "Scatterplot_rules.png"
         }
     ],
     "nodes": [
@@ -277,9 +277,9 @@
             "name": "Histogram_liftvalues_rules.png"
         },
         {
-            "name": "plot_rules.png"
+            "name": "Scatterplot_rules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:23:40",
+    "updated_at": "2018-12-10 00:23:53",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
