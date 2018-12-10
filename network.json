@@ -248,10 +248,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "urvi15mistry",
             "desc": "",
-            "name": "Apriori_plot.R"
+            "name": "Apriori_plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Histogram_liftvalues_rules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:20:23",
+    "updated_at": "2018-12-10 00:22:49",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
