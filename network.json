@@ -148,11 +148,10 @@
             "ports": [
                 {
                     "input": "cleanData",
-                    "output": "cleanData",
-                    "type": "r_obj"
+                    "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "cleanData.csv",
             "target": "Apriori.R"
         }
     ],
@@ -228,6 +227,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 00:02:40",
+    "updated_at": "2018-12-10 00:03:05",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
