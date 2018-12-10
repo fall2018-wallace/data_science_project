@@ -278,8 +278,11 @@
         },
         {
             "name": "Scatterplot_rules.png"
+        },
+        {
+            "name": "Scatterplot_goodrules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:23:53",
+    "updated_at": "2018-12-10 00:24:09",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
