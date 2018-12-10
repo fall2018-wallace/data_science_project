@@ -46,5 +46,3 @@ summary(rules)
 inspect(rules)
 goodrules<- rules[quality(rules)$lift > 2.0] 
 inspect(goodrules)
-plot(goodrules)
-itemFrequencyPlot(df,support=0.1)
