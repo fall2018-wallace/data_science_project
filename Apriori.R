@@ -45,5 +45,5 @@ df
 rules<-apriori(df,parameter = list(support=0.1, confidence=0.5),appearance = list(default="lhs", rhs=("satisfied=no")))
 summary(rules)
 inspect(rules)
-goodrules<- rules[quality(rules)$lift > 2.0] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
+goodrules<- rules[quality(rules)$lift > 2.0] 
 inspect(goodrules)
