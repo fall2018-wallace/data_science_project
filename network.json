@@ -265,8 +265,11 @@
         },
         {
             "name": "Histogram_liftvalues_rules.png"
+        },
+        {
+            "name": "plot_rules.png"
         }
     ],
-    "updated_at": "2018-12-10 00:23:05",
+    "updated_at": "2018-12-10 00:23:20",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
