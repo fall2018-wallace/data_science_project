@@ -24,7 +24,9 @@ itemFrequency(df1)
 rules1<-apriori(df1,parameter = list(support=0.1, confidence=0.5),appearance = list(default="lhs", rhs=("satisfied=no")))
 summary(rules1)
 inspect(rules1)
-plot(rules1,jitter = 0)
+
+arPlot <- plot(rules1,jitter = 0)
+
 goodrules1<- rules1[quality(rules1)$lift > 1.8] #Airline status = blue and type of travel= personal travel are the ones having hgihest confidence
 inspect(goodrules1)
-plot(goodrules1)
+arGoodrules <- plot(goodrules1)
