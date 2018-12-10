@@ -8,3 +8,7 @@ Month <- replicate(length(cleanData$Flight_date),"January")
 Month[month(mdy(cleanData$Flight_date))==2] <- "February"
 Month[month(mdy(cleanData$Flight_date))==3] <- "March"
 head(Month)
+
+Departuredelay <- replicate(length(cleanData$Departure_delay_in_minutes),"Average")
+Departuredelay[cleanData$Departure_delay_in_minutes<=60] <- "low"
+Departuredelay[cleanData$Departure_delay_in_minutes>180] <- "High"
