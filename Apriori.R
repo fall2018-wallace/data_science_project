@@ -41,6 +41,8 @@ Age[cleanData$Age > q[2]] <- "High"
 
 df <- data.frame(satisfied, pricesensitivity, Flightspa, Age ,percentflightwithotherAirlines,  Month, Departuredelay, Arrivaldelay, Flight.time, FlightDist, cleanData$Airline_status, cleanData$Gender, cleanData$Type_of_travel, cleanData$Class, cleanData$Airline_name, cleanData$Origin_city, cleanData$Origin_state, cleanData$Destination_city, cleanData$Destination_state, cleanData$Arrival_delay_greater_than_5minutes)
 df
+df <- as(df, "transactions")              
+itemFrequency(df)
 
 rules<-apriori(df,parameter = list(support=0.1, confidence=0.5),appearance = list(default="lhs", rhs=("satisfied=no")))
 summary(rules)
