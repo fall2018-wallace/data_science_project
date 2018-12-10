@@ -1,5 +1,6 @@
 
 library(arulesViz)
+library(arules)
 
 Histogram_rules <- hist(lifts)
 plot_rules <- plot(rules,jitter = 0)
