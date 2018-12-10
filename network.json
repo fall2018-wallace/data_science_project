@@ -214,6 +214,16 @@
             ],
             "source": "Apriori_plot.R",
             "target": "Itemfrequencyplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "Apriori_selected.R",
+            "target": "arPlot.png"
         }
     ],
     "nodes": [
@@ -309,6 +319,6 @@
             "name": "arPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:25:30",
+    "updated_at": "2018-12-10 00:25:48",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
