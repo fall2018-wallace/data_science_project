@@ -304,8 +304,11 @@
         },
         {
             "name": "Itemfrequencyplot.png"
+        },
+        {
+            "name": "arPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:25:09",
+    "updated_at": "2018-12-10 00:25:30",
     "url": "https://github.com/fall2018-wallace/data_science_project"
 }
